@@ -1,4 +1,4 @@
-package com.guitar.db.model;
+package com.guitar.model;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.guitar.db.model;
+package com.guitar.model;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,7 +11,7 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.OneToMany;
 
-@Entity
+@Entity(name="MODELTYPE")
 public class ModelType {
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
