@@ -38,7 +38,7 @@ public class Manufacturer {
 	private Boolean active;
 	
 	@OneToMany(cascade=CascadeType.ALL)
-//	@JoinColumn(name="MANUFACTURER_ID")
+	@JoinColumn(name="manufacturer_id")
 	private List<Model> models = new ArrayList<Model>();
 
 	@ManyToOne
